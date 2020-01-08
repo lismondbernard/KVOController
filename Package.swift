@@ -9,6 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "KVOController",
+	    type: .dynamic,
             targets: ["KVOController"]),
     ],
     dependencies: [
