@@ -19,6 +19,6 @@ let package = Package(
         .target(
             name: "KVOController",
             dependencies: [],
-	    publicHeadersPath: "FBKVOController"),
+	    publicHeadersPath: "Sources/KVOController/FBKVOController"),
     ]
 )
